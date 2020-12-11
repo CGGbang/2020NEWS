@@ -1,0 +1,21 @@
+a
+{
+    text-decoration: none;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    list-style-type: none;
+}
+
+ .clear:after
+ {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+ }
