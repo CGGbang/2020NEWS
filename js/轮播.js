@@ -1,3 +1,4 @@
+    window.alert("欢迎观看");
     var timerThree = null;
     var time = null;
     var mark = null;
