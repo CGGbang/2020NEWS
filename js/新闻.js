@@ -8,15 +8,15 @@ var Interal1 = function(){
     Ttime = setInterval(function(){
         newsList[0].style.left = n + "px";
         newsList[1].style.left = z + "px";
-        if(n <= -2700){
+        if(n <= -2300){
             n = 2300;
         }
-        if(z <= -2700){
-            z = 2500;
+        if(z <= -2300){
+            z = 2300;
         }
         n--;
         z--;
-    },10);
+    },5);
 }
 Interal1();
 for(var m = 0; m < newList.length; ++m){
