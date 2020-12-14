@@ -16,7 +16,7 @@ var Interal1 = function(){
         }
         n--;
         z--;
-    },5);
+    }, 10);
 }
 Interal1();
 for(var m = 0; m < newList.length; ++m){
